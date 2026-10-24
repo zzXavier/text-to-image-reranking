@@ -1,0 +1,7 @@
+{
+  "torch": "2.4.1+cu121",
+  "device": "cpu",
+  "hardware": "cpu",
+  "precision": "float32",
+  "prompt_count": 36
+}

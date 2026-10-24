@@ -15,6 +15,15 @@ FILES = ["config.json","preprocessor_config.json","tokenizer_config.json","token
 
 def fetch(target):
     target.mkdir(parents=True,exist_ok=True)
+    pins=json.loads((Path(__file__).resolve().parents[1]/"configs/model-sha256.json").read_text())
+    def verify():
+        for file,expected_digest in pins.items():
+            with (target/file).open("rb") as handle:
+                if hashlib.file_digest(handle,"sha256").hexdigest()!=expected_digest:
+                    raise IOError(f"Cached file does not match pinned SHA-256: {file}")
+    if all((target/name).is_file() for name in FILES):
+        verify()
+        return target
     root=f"https://huggingface.co/{MODEL}/resolve/{REVISION}"
     tree=requests.get(f"https://huggingface.co/api/models/{MODEL}/tree/{REVISION}",timeout=45)
     tree.raise_for_status()
@@ -41,6 +50,7 @@ def fetch(target):
             if digest!=expected["lfs"]["oid"]:
                 raise IOError(f"SHA mismatch for {name}")
         tmp.replace(dest)
+    verify()
     return target
 
 

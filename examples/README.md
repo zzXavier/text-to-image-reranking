@@ -1,0 +1,1 @@
+`features.json` contains the fixed numeric candidate features and anonymous human labels produced by the formal PickScore extraction. `python run.py demo` uses it to refit the ranking head and score held-out records without downloading model weights. Raw prompt and image data are fetched into the local cache only.

@@ -1,0 +1,5 @@
+method,correct_presentations,presentations,independent_pairs,agreement
+first,12,24,12,0.5
+whole,20,24,12,0.8333333333333334
+clauses,16,24,12,0.6666666666666666
+preference_head,16,24,12,0.6666666666666666

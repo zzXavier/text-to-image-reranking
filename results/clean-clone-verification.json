@@ -1,0 +1,21 @@
+{
+  "remote_commit": "915804b4962dd30a0f21d9c8001691ce29b1bf30",
+  "clean_clone": true,
+  "unit_tests": 3,
+  "cpu_smoke_passed": true,
+  "full_cpu_reproduction": true,
+  "heldout_human_pairs": 12,
+  "source_preference_pairs": 36,
+  "constructed_candidates": 20,
+  "byte_identical_sha256": {
+    "features.json": "073c2d179c21dc228e309ff0628e3e531ff37ff98398f487bc409a4b5e54b795",
+    "head.json": "b9cd5ee6aa4ca6cb749a291ddfbf3c3da56e39559b38f54fe9d0418f2fd6a597",
+    "predictions.json": "786506c0ba81a09f58007855e292d84a1310abfb95a5cc7d46d4d401f8134003",
+    "summary.csv": "6d6e5d6968f1d9109b9aca5c297f63c8988a9a4c7d2affe568b06d29ed4ee679",
+    "order-balanced.csv": "4ca73b29fb0771dfad27612e238950a50dc3fdc260b918a127a2457c0ba15fbb",
+    "probe-predictions.json": "711ab3f1c798851ea6390dcf3c3bba35d59a865c2ac3a9170c0a025ab036b983",
+    "probe-summary.csv": "e351d8d2b367c1dcce80e95cb93104a769523df5591d2c0fc72ee7f06bd0b445",
+    "comparison.png": "2a006fdcce145eb3a2e2a733780a1ed187dea57e93c04ec35ef58726ddd59056",
+    "probe-example.png": "c03bd355983242c8a6bf6c88549c7442f14bf9a25c8ee653aa1c53c98b50d62c"
+  }
+}

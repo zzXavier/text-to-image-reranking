@@ -1,9 +1,3 @@
-# P02 交接记录
+# Handoff
 
-当前阶段：上游版本已固定，正式验收待完成。
-
-最近已核实：项目远端以及 UPSTREAM.md 中的源码提交。
-
-待执行：运行上游入口 trainer/scripts/train.py ，保存日志，再按项目 README 的实验目标添加留出集对照。
-
-验收要求：从干净克隆运行演示与正式基线，使用保存的预测重建结果，涉及训练则测试权重重载。
+The selected public data comprises 24 training pairs and 12 held-out pairs. Checksummed original bytes are cached locally; raw third-party images and user identifiers are excluded from this repository. The scoring tests passed. Formal extraction waits for the full official PickScore checkpoint to finish downloading and verify its digest. Next command: `python run.py reproduce --device cpu --cache CACHE_ROOT`. Then regenerate results, package deidentified feature rows for the demo and repeat from a clean clone. Publication requires that final independent check.

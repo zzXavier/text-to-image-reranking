@@ -1,0 +1,4 @@
+method,exact_top1,prompts,candidates_per_prompt
+whole,3,4,5
+attributes,1,4,5
+preference,0,4,5

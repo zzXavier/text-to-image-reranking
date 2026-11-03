@@ -1,0 +1,194 @@
+[
+  {
+    "pair": 694474,
+    "winner": 1,
+    "predictions": {
+      "first": 0,
+      "whole": 1,
+      "clauses": 1,
+      "preference_head": 1
+    },
+    "swapped_predictions": {
+      "first": 0,
+      "whole": 0,
+      "clauses": 0,
+      "preference_head": 0
+    }
+  },
+  {
+    "pair": 556299,
+    "winner": 0,
+    "predictions": {
+      "first": 0,
+      "whole": 0,
+      "clauses": 1,
+      "preference_head": 0
+    },
+    "swapped_predictions": {
+      "first": 0,
+      "whole": 1,
+      "clauses": 0,
+      "preference_head": 1
+    }
+  },
+  {
+    "pair": 542274,
+    "winner": 0,
+    "predictions": {
+      "first": 0,
+      "whole": 0,
+      "clauses": 0,
+      "preference_head": 1
+    },
+    "swapped_predictions": {
+      "first": 0,
+      "whole": 1,
+      "clauses": 1,
+      "preference_head": 0
+    }
+  },
+  {
+    "pair": 743799,
+    "winner": 0,
+    "predictions": {
+      "first": 0,
+      "whole": 0,
+      "clauses": 0,
+      "preference_head": 0
+    },
+    "swapped_predictions": {
+      "first": 0,
+      "whole": 1,
+      "clauses": 1,
+      "preference_head": 1
+    }
+  },
+  {
+    "pair": 114098,
+    "winner": 0,
+    "predictions": {
+      "first": 0,
+      "whole": 0,
+      "clauses": 0,
+      "preference_head": 0
+    },
+    "swapped_predictions": {
+      "first": 0,
+      "whole": 1,
+      "clauses": 1,
+      "preference_head": 1
+    }
+  },
+  {
+    "pair": 719844,
+    "winner": 0,
+    "predictions": {
+      "first": 0,
+      "whole": 0,
+      "clauses": 0,
+      "preference_head": 1
+    },
+    "swapped_predictions": {
+      "first": 0,
+      "whole": 1,
+      "clauses": 1,
+      "preference_head": 0
+    }
+  },
+  {
+    "pair": 141448,
+    "winner": 0,
+    "predictions": {
+      "first": 0,
+      "whole": 0,
+      "clauses": 0,
+      "preference_head": 0
+    },
+    "swapped_predictions": {
+      "first": 0,
+      "whole": 1,
+      "clauses": 1,
+      "preference_head": 1
+    }
+  },
+  {
+    "pair": 119682,
+    "winner": 0,
+    "predictions": {
+      "first": 0,
+      "whole": 1,
+      "clauses": 1,
+      "preference_head": 1
+    },
+    "swapped_predictions": {
+      "first": 0,
+      "whole": 0,
+      "clauses": 0,
+      "preference_head": 0
+    }
+  },
+  {
+    "pair": 512717,
+    "winner": 0,
+    "predictions": {
+      "first": 0,
+      "whole": 1,
+      "clauses": 1,
+      "preference_head": 1
+    },
+    "swapped_predictions": {
+      "first": 0,
+      "whole": 0,
+      "clauses": 0,
+      "preference_head": 0
+    }
+  },
+  {
+    "pair": 496478,
+    "winner": 0,
+    "predictions": {
+      "first": 0,
+      "whole": 0,
+      "clauses": 0,
+      "preference_head": 0
+    },
+    "swapped_predictions": {
+      "first": 0,
+      "whole": 1,
+      "clauses": 1,
+      "preference_head": 1
+    }
+  },
+  {
+    "pair": 76262,
+    "winner": 0,
+    "predictions": {
+      "first": 0,
+      "whole": 0,
+      "clauses": 0,
+      "preference_head": 0
+    },
+    "swapped_predictions": {
+      "first": 0,
+      "whole": 1,
+      "clauses": 1,
+      "preference_head": 1
+    }
+  },
+  {
+    "pair": 406552,
+    "winner": 0,
+    "predictions": {
+      "first": 0,
+      "whole": 0,
+      "clauses": 1,
+      "preference_head": 0
+    },
+    "swapped_predictions": {
+      "first": 0,
+      "whole": 1,
+      "clauses": 0,
+      "preference_head": 1
+    }
+  }
+]

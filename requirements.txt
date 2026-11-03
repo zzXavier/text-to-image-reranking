@@ -5,3 +5,4 @@ scikit-learn==1.8.0
 transformers==4.46.3
 safetensors==0.5.3
 torch==2.4.1
+pyarrow==19.0.1
